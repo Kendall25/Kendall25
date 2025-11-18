@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Digital</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+<nav id="navbar">
+    <div class="nav-container">
+        <!-- Botón hamburguesa para móvil -->
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <!-- Logo con tu nombre - Ahora centrado -->
+        <div class="logo">
+            <a href="#inicio">Tommy Leiva</a>
+        </div>
+        
+        <!-- Menú de navegación con todas las opciones -->
+        <ul class="nav-menu">
+            <li><a href="#inicio" class="active">Home</a></li>
+            <li><a href="#sobre-mi">About Me</a></li>
+            <li><a href="#proyectos">My Projects</a></li>
+            <li><a href="#contacto">Contact</a></li>
+        </ul>
+        
+        <!-- Espacio para mantener el balance -->
+        <div style="width: 25px;"></div>
+    </div>
+</nav>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm  <span class="highlight">Tommy Leiva</span></h1>
+            <p>Web Developer | Designer </p>
+            <a href="#proyectos" class="btn">View projects</a>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2>About me</h2>
+            <div class="about-content">
+                <!-- Tu foto de perfil -->
+                <div class="about-img">
+                    <img src="media/perfil.png" alt="Tu foto de perfil">
+                </div>
+                <!-- Información sobre ti -->
+                <div class="about-text">
+                    <h3>Hello, I'm Tommy Leiva</h3>
+                    <p>I'm a general high school student at the Instituto Nacional San Luis and an active participant in the ¡Supérate! ADOC program. I specialize in the use of technological tools such as Excel, Power BI, databases, and web programming, with a strong focus on communication, leadership, and teamwork skills. I consider myself a proactive, adaptable, and critical thinker, always seeking to solve problems assertively and efficiently.</p>
+                    
+                    <!-- Botón de descarga de CV -->
+                    <div class="cv-download">
+                        <a href="media/CV-TommyLeivaDuran.pdf" download="Tommy_Leiva_CV.pdf" class="btn btn-cv">
+                            <i class="fas fa-download"></i>
+                            Download My CV
+                        </a>
+                    </div>
+                    
+                    <!-- Tus habilidades -->
+                    <div class="skills">
+                        <h4>Soft Skills</h4>
+                        <div class="skill-item">
+                            <span>Communication</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Teamwork</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Problem Solving</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Adaptability</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="83"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Leadership</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Time Management</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Creativity</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="87"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Critical Thinking</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="89"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Add this section where you want to display your skills -->
+<section class="skills-section">
+  <h2>Technical Skills</h2>
+  <div class="skills-container">
+    <!-- Database Card -->
+    <div class="skill-card">
+      <div class="skill-icon">
+        <i class="fas fa-database"></i>
+      </div>
+      <h3>Databases</h3>
+      <p>Management and administration of relational database systems.</p>
+    </div>
+
+    <!-- Microsoft Office Card -->
+    <div class="skill-card">
+      <div class="skill-icon">
+        <i class="fas fa-file-excel"></i>
+      </div>
+      <h3>Microsoft Tools</h3>
+      <p>Proficiency in Excel, Word, PowerPoint and other Office tools.</p>
+    </div>
+
+    <!-- JavaScript Card -->
+    <div class="skill-card">
+      <div class="skill-icon">
+        <i class="fab fa-js-square"></i>
+      </div>
+      <h3>JavaScript</h3>
+      <p>Development of interactive and dynamic web applications.</p>
+    </div>
+
+    <!-- HTML Card -->
+    <div class="skill-card">
+      <div class="skill-icon">
+        <i class="fab fa-html5"></i>
+      </div>
+      <h3>HTML</h3>
+      <p>Semantic structuring of web content.</p>
+    </div>
+
+    <!-- CSS Card -->
+    <div class="skill-card">
+      <div class="skill-icon">
+        <i class="fab fa-css3-alt"></i>
+      </div>
+      <h3>CSS</h3>
+      <p>Design and styling of modern web interfaces.</p>
+    </div>
+
+    <!-- Power BI Card -->
+    <div class="skill-card">
+      <div class="skill-icon">
+        <i class="fas fa-chart-bar"></i>
+      </div>
+      <h3>Power BI</h3>
+      <p>Creation of dashboards and visual data analysis.</p>
+    </div>
+
+    <!-- GitHub Card -->
+    <div class="skill-card">
+      <div class="skill-icon">
+        <i class="fab fa-github"></i>
+      </div>
+      <h3>GitHub</h3>
+      <p>Version control and collaboration in development projects.</p>
+    </div>
+
+    <!-- Canva Card -->
+    <div class="skill-card">
+      <div class="skill-icon">
+        <i class="fas fa-palette"></i>
+      </div>
+      <h3>Canva</h3>
+      <p>Graphic design and creation of attractive visual content.</p>
+    </div>
+  </div>
+</section>
+
+    <!-- Sección de Proyectos -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            
+            <!-- Grid de proyectos -->
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="media/codax.png" alt="Proyecto 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Codax</h3>
+                        <p>Codax is a PowerApps app that offers home package delivery.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">View Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="media/logo.png" alt="Proyecto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>JOBSY</h3>
+                        <p>This is a website for graduates of the ¡Supérate! ADOC Center to find work. </p>
+                        <div class="project-links">
+                            <a href="https://jobsy.infinityfreeapp.com/" class="btn-small">View Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 3 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="media/image.jpeg" alt="Proyecto 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>CodeHaru</h3>
+                        <p>A website for students to learn programming, with two different paths: Python and JS.</p>
+                        <div class="project-links">
+                            <a href="http://codeharuadoc.infinityfreeapp.com/" class="btn-small">View Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contact">
+
+                
+                <div class="contact-form">
+                    <h3>Send me a Message</h3>
+                    <form action="https://formspree.io/f/mkgkakzv" method="POST">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+503 7826-7407</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>tommykendall.leiva7@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="address">
+                        <span>Urb. Prados de Venecia,</span>
+                        <span>Gpo. 87, Pje. 46, #10</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                    <a href="https://github.com/Kendall25" class="social-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/tommy-leiva-aaa85b310/" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://www.instagram.com/tkld.26/?hl=es-la" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tommy Kendall. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
